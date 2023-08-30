@@ -7,7 +7,7 @@ function onSignIn(googleUser) {
     // displaying data using jquery
     $("#name").text(profile.getName());
     // text is the data type and data is stored in variable profile 
-    $("email").text(profile.getEmail());
+    $("#email").text(profile.getEmail());
     // case sensitive
     $("#image").attr('src',profile.getImageUrl());
     // attr is attribute since image is an attribute 
