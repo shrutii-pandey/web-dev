@@ -1,0 +1,14 @@
+.data
+{
+    /* intial display no data before sign in button clicked */
+    display:none; 
+}
+.g-signin2
+{
+    /* sign in button at center of screen */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
