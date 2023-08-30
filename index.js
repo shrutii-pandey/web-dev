@@ -24,7 +24,7 @@ function onSignIn(googleUser) {
         // console.log('Image URL: ' + profile.getImageUrl());
         // console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
 
-        
+}       
         //sign out function
         function signOut() {
           var auth2 = gapi.auth2.getAuthInstance();
@@ -37,5 +37,3 @@ function onSignIn(googleUser) {
             $(".data").css("display","none");
           });
         } 
-
-  }
