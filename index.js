@@ -13,7 +13,7 @@ function onSignIn(googleUser) {
     // attr is attribute since image is an attribute 
     $(".data").css("display","block");
     // to display the data upon clicking signin button
-    $("g-signin2").css("display","none");
+    $(".g-signin2").css("display","none");
     // to hide sign in button after successfully signin
 
 
